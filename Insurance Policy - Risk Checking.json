@@ -238,7 +238,7 @@
         "data": {
           "id": "note-vCpNA",
           "node": {
-            "description": "### 💡 Tambahkan **Structured Output** di sini, Klik **Open table** untuk menyesuakan schema",
+            "description": "### 💡 Strructured output, menampung hasil olah pdf (unstructured) menjadi structured data",
             "display_name": "",
             "documentation": "",
             "template": {
@@ -267,7 +267,7 @@
         "data": {
           "id": "note-hgCbJ",
           "node": {
-            "description": "### 💡 Tambahkan Language Model 2 di sini, Sesuaikan model dan system messagenya",
+            "description": "### 💡 LLM 2: Mengolah hasil parsed structured output",
             "display_name": "",
             "documentation": "",
             "template": {
@@ -284,8 +284,8 @@
           "width": 393
         },
         "position": {
-          "x": 2152.1804820748525,
-          "y": 639.5567796121995
+          "x": 2154.265083899759,
+          "y": 691.6718252348511
         },
         "resizing": false,
         "selected": false,
@@ -296,7 +296,7 @@
         "data": {
           "id": "note-q3Oah",
           "node": {
-            "description": "### 💡 Tambahkan Parser di sini",
+            "description": "### 💡 Parsing structured outputnya",
             "display_name": "",
             "documentation": "",
             "template": {
@@ -322,7 +322,7 @@
         "data": {
           "id": "note-LWW8L",
           "node": {
-            "description": "### 💡 Tambahkan Language Model 1 di sini,\n###  Sesuaikan model dan System Messagenya",
+            "description": "### 💡Language Model 1",
             "display_name": "",
             "documentation": "",
             "template": {
@@ -339,8 +339,8 @@
           "width": 379
         },
         "position": {
-          "x": 669.8624841751073,
-          "y": 63.77978173596949
+          "x": 653.1856695758588,
+          "y": 178.43288210580283
         },
         "resizing": false,
         "selected": false,
@@ -351,7 +351,7 @@
         "data": {
           "id": "note-I0k6T",
           "node": {
-            "description": "### 💡 Tambahkan Read File di sini, Upload File Dokumen Kontrak Vendor",
+            "description": "### 💡 Masukkan Polis Asuransi yang ingin dianalisis disini",
             "display_name": "",
             "documentation": "",
             "template": {
@@ -368,8 +368,8 @@
           "width": 327
         },
         "position": {
-          "x": 673.1709580948335,
-          "y": 847.6411566634322
+          "x": 648.1557361959608,
+          "y": 889.3331931615534
         },
         "resizing": false,
         "selected": false,
@@ -380,7 +380,7 @@
         "data": {
           "id": "note-H2AaX",
           "node": {
-            "description": "### 💡 Tambahkan Chat Output di sini",
+            "description": "### 💡Chat Output",
             "display_name": "",
             "documentation": "",
             "template": {
@@ -396,8 +396,8 @@
           "width": 324
         },
         "position": {
-          "x": 3045.1349238492417,
-          "y": 116.27467897827233
+          "x": 3069.3976374709464,
+          "y": 476.6514101771244
         },
         "selected": false,
         "type": "noteNode"
@@ -406,7 +406,7 @@
         "data": {
           "id": "note-ravBM",
           "node": {
-            "description": "NAMA: CHRISTIAN WINDI UTOMO\n\nASAL UNIVERSITAS: \nUNIVERSITAS TERBUKA - BOGOR\n\nIni adalah tool untuk mempelajari polis asutansi, upload file polis lalu mulai bertanya pada playground. \n\ngunakan prompt sperti:\nAyo mulai analisa!\n\nuntuk memulai",
+            "description": "NAMA: CHRISTIAN WINDI UTOMO\n\nASAL UNIVERSITAS: \nUNIVERSITAS TERBUKA - BOGOR\n\nJurusan: Ilmu Hukum (S1)\n\nIni adalah tool untuk mempelajari polis asutansi, upload file polis lalu mulai bertanya pada playground. \n\ngunakan prompt sperti:\nAyo mulai analisa!\n\nuntuk memulai",
             "display_name": "",
             "documentation": "",
             "template": {}
@@ -425,7 +425,7 @@
           "y": 30.144675083493382
         },
         "resizing": false,
-        "selected": true,
+        "selected": false,
         "type": "noteNode",
         "width": 447
       },
@@ -1716,8 +1716,8 @@
           "width": 192
         },
         "position": {
-          "x": 3082.8653921855444,
-          "y": 211.57830239698953
+          "x": 3097.457604959887,
+          "y": 536.7761870823348
         },
         "selected": false,
         "type": "genericNode"
@@ -4969,8 +4969,8 @@
           "width": 320
         },
         "position": {
-          "x": 2633.1142974793097,
-          "y": 69.71745278191158
+          "x": 2628.9450938294976,
+          "y": 169.77834037740243
         },
         "selected": false,
         "type": "genericNode"
@@ -6058,8 +6058,8 @@
           "width": 320
         },
         "position": {
-          "x": 2193.5672148969293,
-          "y": -433.1188458052105
+          "x": 2162.298187523338,
+          "y": -193.65021116912692
         },
         "selected": false,
         "type": "genericNode"
@@ -6345,32 +6345,115 @@
           "showNode": false,
           "type": "ChatInput"
         },
+        "dragging": false,
         "id": "ChatInput-jOL6T",
         "measured": {
           "height": 52,
           "width": 192
         },
         "position": {
-          "x": 2072.4248257758168,
-          "y": 196.95205577264642
+          "x": 1772.242162989344,
+          "y": 307.4359524926676
         },
         "selected": false,
         "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "note-6tZKM",
+          "node": {
+            "description": "### 💡 LLM 3: Agent mode, untuk trigger memulai dan followup-questions",
+            "display_name": "",
+            "documentation": "",
+            "template": {
+              "backgroundColor": "transparent"
+            }
+          },
+          "type": "note"
+        },
+        "dragging": false,
+        "height": 329,
+        "id": "note-6tZKM",
+        "measured": {
+          "height": 329,
+          "width": 393
+        },
+        "position": {
+          "x": 2613.610224110402,
+          "y": 33.83196297374705
+        },
+        "selected": false,
+        "type": "noteNode",
+        "width": 393
+      },
+      {
+        "data": {
+          "id": "note-P6qNM",
+          "node": {
+            "description": "### 💡 LLM 3 yang digunakan",
+            "display_name": "",
+            "documentation": "",
+            "template": {
+              "backgroundColor": "transparent"
+            }
+          },
+          "type": "note"
+        },
+        "dragging": false,
+        "height": 329,
+        "id": "note-P6qNM",
+        "measured": {
+          "height": 329,
+          "width": 393
+        },
+        "position": {
+          "x": 2126.188333971706,
+          "y": -267.2928033063324
+        },
+        "selected": false,
+        "type": "noteNode",
+        "width": 393
+      },
+      {
+        "data": {
+          "id": "note-LX1J1",
+          "node": {
+            "description": "### 💡Chat Input",
+            "display_name": "",
+            "documentation": "",
+            "template": {
+              "backgroundColor": "transparent"
+            }
+          },
+          "type": "note"
+        },
+        "dragging": false,
+        "id": "note-LX1J1",
+        "measured": {
+          "height": 140,
+          "width": 280
+        },
+        "position": {
+          "x": 1776.4106830414255,
+          "y": 252.35318906890305
+        },
+        "selected": false,
+        "type": "noteNode"
       }
     ],
     "viewport": {
-      "x": -197.76951746081295,
-      "y": 205.77053950086045,
-      "zoom": 0.4797079173837255
+      "x": -255.99943148048328,
+      "y": 222.32493192858277,
+      "zoom": 0.5324682526729704
     }
   },
-  "description": "Starter Project IBM Legal, dimodifikasi menjadi insurance policy",
+  "description": "Starter Project IBM Legal",
   "endpoint_name": null,
   "id": "8376a39f-519d-4efc-931e-f6abd8423ac5",
   "is_component": false,
   "last_tested_version": "1.9.2",
   "locked": false,
-  "name": "Insurance Policy - Risk Checking",
+  "name": "Insurance Policy Risk Checking",
   "tags": [
     "chatbots",
     "coding"
