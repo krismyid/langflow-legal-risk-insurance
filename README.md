@@ -1,6 +1,6 @@
 # Insurance Policy - Risk Checking
 
-> Capstone project example for **IBM Skillsbuild x Hacktiv8**, meant to be run with Langflow.  
+> Capstone project example for **IBM Skillsbuild x Haktiv8**, meant to be run with Langflow.  
 > 3rd training day: 15 May 2026
 
 LangFlow workflow untuk penilaian risiko hukum (*legal risk assessment*) pada dokumen polis asuransi menggunakan AI.
@@ -91,4 +91,4 @@ Sample insurance policy dokumen diambil dari contoh polis asuransi publik BCA In
 
 **WTFPL v2 (Family-Friendly Edition)** — Do What You Want Public License.
 
-Project ini dikembangkan sebagai bahan pembelajaran (pertemuan 3 IBM Skillsbuild x Hacktiv8).
+Project ini dikembangkan sebagai bahan pembelajaran (pertemuan 3 IBM Skillsbuild x Haktiv8).
