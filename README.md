@@ -53,7 +53,9 @@ Workflow ini merupakan modifikasi dari **IBM Legal Starter Project** yang diadap
 
 - **Platform**: LangFlow 1.9.2
 - **Bahasa Pemrosesan**: Bahasa Indonesia
-- **Model LLM Default**: Google Gemini 2.5 Flash
+- **Model LLM via OpenRouter**:
+  - LLM1 (Ekstraksi): Xiaomi/mimo-v2-flash
+  - LLM2 (Analisis Risiko): Xiaomi/mimo-v2.5-pro
 - **Framework**: LangChain
 
 ## Cara Penggunaan
