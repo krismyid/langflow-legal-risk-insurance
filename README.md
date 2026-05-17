@@ -5,7 +5,7 @@
 
 LangFlow workflow untuk penilaian risiko hukum (*legal risk assessment*) pada dokumen polis asuransi menggunakan AI.
 
-https://github.com/user-attachments/assets/f85b4b3a-11cf-4a67-8e6c-7b9f5c6e5a9b
+<video src="img/in-action-web.mp4" controls width="100%"></video>
 
 ![Workflow Preview](img/playground.png)
 
