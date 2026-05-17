@@ -5,9 +5,15 @@
 
 LangFlow workflow untuk penilaian risiko hukum (*legal risk assessment*) pada dokumen polis asuransi menggunakan AI.
 
+https://github.com/user-attachments/assets/f85b4b3a-11cf-4a67-8e6c-7b9f5c6e5a9b
+
+![Workflow Preview](img/playground.png)
+
 ## Deskripsi
 
 Workflow ini merupakan modifikasi dari **IBM Legal Starter Project** yang diadaptasi untuk analisis risiko polis asuransi. Sistem ini menggunakan Large Language Model (LLM) untuk:
+
+![Main Workflow Canvas](img/main-flow-canvas.png)
 
 1. Membaca dan mengekstrak kontrak dari dokumen polis asuransi
 2. Mengekstrak klausul-klausul penting dalam format terstruktur (JSON)
@@ -32,6 +38,16 @@ Workflow ini merupakan modifikasi dari **IBM Legal Starter Project** yang diadap
 | **OpenRouter Models** | Koneksi ke berbagai LLM melalui OpenRouter API |
 | **Agent** | AI Agent sebagai *corporate legal risk assessor* |
 | **Chat Input/Output** | Interface chat untuk interaksi interaktif |
+
+### Prompt Configuration
+
+**LLM Prompt 1 - Document Extraction:**
+
+![LLM Prompt 1](img/llm-1-prompt.png)
+
+**LLM Prompt 2 - Risk Assessment:**
+
+![LLM Prompt 2](img/llm-2-prompt.png)
 
 ## Teknologi
 
